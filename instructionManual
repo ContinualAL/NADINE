@@ -1,0 +1,20 @@
+Instruction Manual:
+
+Please extract the file zip file and open the folder.
+For the classification problem:
+1. Open the main Matlab running file (RunNADINEClassification.m) under the folder.
+2. Run this file. It will load a dataset depending on the index you set in the RunNADINEClassification.m. 
+3. The index i represents how many times/rounds we want to run the algorithm, whereas index j represents how do we select the dataset.
+4. Assuming that we have dataset ready in the matlab path, we can run the algorithm. Otherwise, download The dataset at the link below:
+https://drive.google.com/drive/folders/1nbbiNAa6ZHIL9orNjQCQXuqyEXZ3bCdI?usp=sharing. For the classification problem, dataset is stored
+under the Classification folder.
+5. The 'results' folder is a reserved folder to save all the files (IT SHOULD BE CREATED) that are generated when we run NADINE algorithm.
+Below is the example of generated files under the results folder: 
+- 4RFIDresults.mat and 4RFIDresults.fig represent the numerical result and the figure of NADINE's performance in processing the RFID dataset in the 4th round.
+
+
+For the regression problem:
+1. Open the main Matlab running file (RunNADINERegression.m) under the folder.
+2. It will call the matlab NADINE_regression.m
+3. In regression problem, the dataset also can be downloaded in the link above under the Regression folder
+4. The rest of the steps are similar with the classification problems
